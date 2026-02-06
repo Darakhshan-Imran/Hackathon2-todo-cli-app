@@ -1,0 +1,1 @@
+"""FastAPI Professional Template Application."""
