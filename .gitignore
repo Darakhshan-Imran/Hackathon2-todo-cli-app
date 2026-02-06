@@ -63,3 +63,9 @@ Thumbs.db
 # Temporary
 *.tmp
 *.temp
+
+# Node.js
+node_modules/
+.next/
+.turbo/
+tsconfig.tsbuildinfo
