@@ -6,10 +6,11 @@ WORKDIR /app
 # Install uv
 RUN pip install uv
 
-# Copy dependency files
+# Copy dependency files and source
 COPY pyproject.toml uv.lock ./
+COPY app/ ./app/
 
-# Install dependencies (non-editable)
+# Install dependencies
 RUN uv pip install --system .
 
 # Production stage
