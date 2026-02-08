@@ -10,8 +10,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
+/lib/
+/lib64/
 parts/
 sdist/
 var/
@@ -69,3 +69,6 @@ node_modules/
 .next/
 .turbo/
 tsconfig.tsbuildinfo
+
+#ui
+.lovable-ui
